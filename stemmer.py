@@ -2,7 +2,7 @@ import re
 
 def stemmer(word):
 	pattern = r'di'
-	ganti = " "
+	ganti = ""
 	word = re.sub(pattern, ganti, word)
 	return word
 
